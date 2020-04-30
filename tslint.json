@@ -1,0 +1,27 @@
+{
+    "defaultSeverity": "error",
+    "extend": [ "tslint-config-prettier" ],
+    "linterOptions": {
+        "exclude": [ "**/node_modules/**" ]
+    },
+    "jsRules": {
+        "no-unused-expression": true
+    },
+    "rules": {
+        "typedef": {
+            "options": [ "property-declaration" ]
+        },
+        "class-name": true,
+        "interface-name": true,
+        "variable-name": {
+            "options": [ "ban-keywords", "check-format", "allow-leading-underscore", "allow-pascal-case" ]
+        },
+        "no-var-keyword": true,
+        "no-var-requires": true,
+        "no-any": false,
+        "no-string-literal": true,
+        "await-promise": true,
+        "promise-function-async": true
+    },
+    "rulesDirectory": []
+}
