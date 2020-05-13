@@ -21,7 +21,8 @@
         "no-any": false,
         "no-string-literal": true,
         "await-promise": true,
-        "promise-function-async": true
+        "promise-function-async": true,
+        "no-restricted-globals": 0
     },
     "rulesDirectory": []
 }
