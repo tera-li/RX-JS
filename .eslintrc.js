@@ -9,10 +9,12 @@ module.exports = {
         'Atomics': 'readonly',
         'SharedArrayBuffer': 'readonly'
     },
+    
     'parserOptions': {
         'ecmaVersion': 11,
-        'sourceType': 'module'
+        'sourceType': 'module',
     },
+    'parser': 'babel-eslint',
     'rules': {
         // 不需要
         'space-before-function-paren': 0, // 函数定义时括号前面要不要有空格
