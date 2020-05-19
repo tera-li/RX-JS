@@ -22,7 +22,9 @@
         "no-string-literal": true,
         "await-promise": true,
         "promise-function-async": true,
-        "no-restricted-globals": 0
+        "no-restricted-globals": 0,
+        "quotemark": [true, "single"],
+        "indent": [true, "spaces", 2]
     },
     "rulesDirectory": []
 }

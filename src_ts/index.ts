@@ -1,6 +1,5 @@
-import { range, interval, of, concat,zip, empty, observable, from, timer, fromEvent  } from "rxjs";
-import { map, filter, take, combineAll, concatAll, mergeAll, mapTo, scan, timeout  } from "rxjs/operators";
-
+import { range, interval, of, concat,zip, empty, observable, from, timer, fromEvent  } from 'rxjs';
+import { filter, take, combineAll, concatAll, mergeAll, mapTo, scan, timeout, map  } from 'rxjs/operators';
 // 1
 // const source = interval(1000).pipe(take(2))
 // const example = source.pipe(map(val => interval(1000).pipe(map(i => `Result (${val}): ${i}`),take(5))));
