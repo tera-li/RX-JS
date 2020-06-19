@@ -26,3 +26,7 @@ tslint.json的配置：
 
 使用git commitizen，规范git commit
 commitizen init cz-conventional-changelog --save --save-exact （git cz）
+``
+tsc --init 创建ts.config.js
+webpack 配置module.rules.test  \.tsx?  use: {loader: 'ts-loader'}
+``
