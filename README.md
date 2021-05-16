@@ -19,11 +19,12 @@ npm start
 
 # 运行tslint
 npm run style:lint
+
 # tslint.json的配置：
 "extend": [ "tslint-config-prettier" ], // 继承 tslint-config-prettier
 "linterOptions": {
         "exclude": [ "**/node_modules/**" ]  // 排除 node_modules
-    },
+},
 
 # 使用git commitizen，规范git commit
 commitizen init cz-conventional-changelog --save --save-exact （git cz）
